@@ -1,2 +1,0 @@
-# simplePathRouter
-Created with CodeSandbox

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Stefan Korecko" />
+    <title>A history rooter example</title>
+  </head>
+  <body>
+    <header>
+      <h1>A history rooter example</h1>
+      <p>
+        This is a very simple example of a history rooter. It routes on the
+        basis of the path part of the URL (i.e. the one after /).
+      </p>
+
+      <p>
+        It is a modified version of the example in the article
+        <a
+          href="https://dev.to/aminnairi/a-router-without-a-web-server-in-vanilla-javascript-3bmg"
+          >A Router Without a Web Server in Vanilla JavaScript by Amin NAIRI</a
+        >
+      </p>
+    </header>
+
+    <nav>
+      <p>
+        Click on the links to see how it works:
+      </p>
+
+      <a href="#main">Main Content</a>
+      <a href="#about">About</a>
+      <a href="#thefooter">The footer</a>
+    </nav>
+
+    <main>
+      <div id="router-view"></div>
+
+      <p>
+        Some other content
+      </p>
+
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+      <p>
+        Some other content
+      </p>
+    </main>
+
+    <footer id="thefooter">
+      <hr />
+      <p>
+        <i>The thefooter footer</i>
+      </p>
+    </footer>
+
+    <script src="js/simplePathRouter.js"></script>
+  </body>
+</html>
